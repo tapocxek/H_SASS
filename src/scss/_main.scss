@@ -1,0 +1,21 @@
+.block {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: blue;
+  left: 100px;
+  top: 50px;
+  animation: runing 3s alternate linear infinite;
+}
+
+@keyframes runing {
+  0% {
+    transform: translateX(0);
+    border-radius: 50%;
+  }
+  100% {
+    transform: translateX(500px);
+    border-radius: 0;
+  }
+}
