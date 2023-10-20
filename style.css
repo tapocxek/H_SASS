@@ -3,22 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 .header_nav {
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .header_nav_svg {
   margin: 0 215px 0 219px;
   font-family: "Raleway";
@@ -27,11 +17,9 @@ a {
   line-height: 31px;
   letter-spacing: 0.03em;
 }
-
 .header_nav_list {
   display: flex;
 }
-
 .header_nav_list_li {
   font-family: "Roboto";
   font-size: 14px;
@@ -40,17 +28,14 @@ a {
   margin-right: 50px;
   list-style: none;
 }
-
 .header_nav_list_li:hover {
   color: #2196f3;
 }
-
 .header_nav_info {
   display: flex;
   margin-left: 218px;
   margin-right: 215px;
 }
-
 .header_nav_info_p {
   display: flex;
   font-family: "Roboto";
@@ -59,11 +44,9 @@ a {
   letter-spacing: 0.02em;
   margin-right: 50px;
 }
-
 .header_nav_info_p:hover {
   color: #2196f3;
 }
-
 .header_logo {
   display: flex;
   background-color: #2f303a;
@@ -72,7 +55,6 @@ a {
   flex-direction: column;
   height: 600px;
 }
-
 .header_logo_text {
   font-family: "Roboto";
   font-weight: 900;
@@ -84,13 +66,11 @@ a {
   color: #ffffff;
   margin-bottom: 40px;
 }
-
 .header_logo_button {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-
 .header_logo_button_text {
   font-family: "Roboto";
   font-weight: 700;
